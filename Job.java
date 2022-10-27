@@ -1,5 +1,5 @@
  public class Job implements Runnable {
-  private int jobNumber;
+  private int jobNumber; //Nobody can steal my job
 
 Job (int jobNumber) {
  this.jobNumber = jobNumber;
